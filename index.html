@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Txt2Img</title>
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="bmc-button-container">
+		  <script type="text/javascript" src="https://cdnjs.buymeacoffee.com/1.0.0/button.prod.min.js"></script>
+		  <a class="bmc-button" data-name="sayan144" data-slug="sayan144" data-color="#FFDD00" data-emoji=""  data-font="Cookie" data-text="Buy me a coffee" data-outline-color="#000000" data-font-color="#000000" data-coffee-color="#ffffff" href="https://www.buymeacoffee.com/sayan144" target="_blank">
+			<img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy me a coffee" style="height: 60px !important;width: 217px !important;" >
+		  </a>
+		</div>
+	  </header>
+	<div class="container">
+		<h1>Txt2Img</h1><br><br>
+		<div class="description">
+			<h3><strong>Txt2Img made by Sayan which is a powerful tool that allows you to create stunning images from your text. With this tool, you can easily convey your message in a more visually appealing way. Simply enter your text and click the generate button to create your image. You can also choose from a variety of example prompts such as "A man riding a horse" or "A beautiful woman photorealistic" to get started.</strong></h3><br>
+		</div>
+		<div class="example-prompts">
+			<button type="button" class="prompt" data-prompt="A man riding a horse">A man riding a horse</button>
+			<button type="button" class="prompt" data-prompt="A beautiful woman photorealistic">A beautiful woman photorealistic</button>
+			<button type="button" class="prompt" data-prompt="A cat">A cat</button>
+			<button type="button" class="prompt" data-prompt="A dog">A dog</button>
+		</div>
+		<form id="form">
+			<textarea id="text-input" placeholder="Enter your text"></textarea>
+			<button type="submit">Generate</button>
+		</form>
+		<div class="image-container">
+			<img id="image">
+			<a id="download-link" download>Download Image</a>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
